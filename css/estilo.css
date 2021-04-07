@@ -1,1 +1,52 @@
-k
+#conteudo {
+	background: #dcdcdc;
+	height: 400px;
+	display: flex;
+	/*flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: flex-start;*/
+}
+
+.item {
+	/*width: 200px;*/
+	height: 100px;
+	background: white;
+	border: 1px solid gray;
+	margin: 10px;
+	flex-grow: 1;
+	flex-shrink: 1;
+	flex-basis: 200px;
+}
+
+/*.ordem1 {
+	order: 1;
+}
+
+.ordem2 {
+	order: 2;
+}
+
+.ordem3 {
+	order: 3;
+}
+
+.ordem4 {
+	order: 4;
+}
+
+.ordem {
+	order: -4;
+}*/
+
+.item1 {
+	/*flex-shrink: 1;*/
+}
+
+.item2 {
+	/*flex-shrink: 2;*/
+}
+
+.item3 {
+	/*flex-shrink: 5;*/
+}
